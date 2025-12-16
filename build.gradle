@@ -11,7 +11,7 @@
 plugins {
     id 'java'
     id 'application'
-    id 'edu.sc.seis.launch4j' version '2.5.3' // Плагин для создания .exe
+    id 'edu.sc.seis.launch4j' version '3.0.7'
 }
 
 // In this section you declare where to find the dependencies of your project
@@ -23,8 +23,8 @@ repositories {
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
-    implementation 'org.slf4j:slf4j-api:1.7.36' // Обновленная версия для совместимости
-    testImplementation 'junit:junit:4.13.2'     // Обновленная версия
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+    testImplementation 'junit:junit:4.13.2'
 }
 application {
     mainClassName = 'SwingDemo'
